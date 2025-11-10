@@ -1,9 +1,9 @@
 # ============================================
 # FILE: README.md (Enhanced)
 # ============================================
-# 📊 EDA Pro Dashboard - Enhanced Edition
+# 📊 PrePify Pro Dashboard - Enhanced Edition
 
-A powerful, modern, and comprehensive Exploratory Data Analysis (EDA) dashboard built with Streamlit. This enhanced version includes advanced analytics, machine learning-ready transformations, and professional-grade visualizations.
+A powerful, modern, and comprehensive PrePify Pro Dashboard built with Streamlit. This enhanced version includes advanced analytics, machine learning-ready transformations, and professional-grade visualizations.
 
 ## ✨ Enhanced Features
 
@@ -385,5 +385,6 @@ Give a ⭐️ if this project helped you!
 - Basic statistics
 
 ---
+
 
 **Made with ❤️ by ONYXCODE** | © 2024 EDA Pro Dashboard - Enhanced Edition

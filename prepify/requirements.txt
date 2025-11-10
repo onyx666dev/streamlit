@@ -1,0 +1,10 @@
+# ============================================
+# FILE: requirements.txt
+# ============================================
+streamlit
+pandas
+plotly
+numpy
+scikit-learn
+scipy
+openpyxl

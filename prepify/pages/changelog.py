@@ -335,7 +335,7 @@ def render():
     
     with tab1:
         st.markdown("""
-        #### Planned for Q1 2025
+        #### Planned for Q1 2026
         
         **Machine Learning Integration**
         - [ ] Regression models (Linear, Random Forest, XGBoost)
@@ -359,7 +359,7 @@ def render():
     
     with tab2:
         st.markdown("""
-        #### Planned for Q3 2025
+        #### Planned for Q3 2026
         
         **Enterprise Features**
         - [ ] Multi-user collaboration
@@ -463,10 +463,11 @@ def render():
             <p style='margin: 0.5rem 0;'><strong>Institution:</strong> Nexpert Academy</p>
             <hr style='margin: 1rem 0; border: none; border-top: 1px solid #e2e8f0;'>
             <p style='margin-top: 1rem; font-size: 0.9rem; color: #718096;'>
-                Made with ❤️ for the data science community
+                Made with ❤️ by <b style='color: #667eea;'>ONYXCODE</b> for the data science community
             </p>
         </div>
     </div>
     """, unsafe_allow_html=True)
     
+
     st.markdown('</div>', unsafe_allow_html=True)

@@ -20,6 +20,7 @@ def display_footer():
             font-weight: 600;
             font-family: Arial, sans-serif;
         '>
-            Made with ❤️ by <b style='color: #667eea;'>ONYXCODE</b> using Streamlit | © 2025 PrePify Pro Dashboard
+            <i>Made with ❤️ by <b style='color: #667eea;'>ONYXCODE</b> using Streamlit | © 2025 PrePify Pro Dashboard</i>
         </div>
     """, unsafe_allow_html=True)
+

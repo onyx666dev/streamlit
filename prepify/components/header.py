@@ -17,7 +17,7 @@ def display_header():
     
     if os.path.exists(svg_path):
         svg_base64 = get_base64_of_svg(svg_path)
-        svg_img_html = f'<img src="data:image/svg+xml;base64,{svg_base64}" style="height:1.7em; vertical-align:middle; margin-right:0.5em;" alt="Icon">'
+        svg_img_html = f'<img src="data:image/svg+xml;base64,{svg_base64}" style="height:1.5em; vertical-align:middle; margin-right:0.5em;" alt="Icon">'
     else:
         svg_img_html = "📊"  # fallback emoji if SVG not found
 
@@ -46,4 +46,5 @@ def display_header():
             </p>
         </div>
     """, unsafe_allow_html=True)
+
 

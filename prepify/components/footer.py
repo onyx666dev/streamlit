@@ -24,8 +24,6 @@ def display_footer():
         </div>
     """, unsafe_allow_html=True)
 
-
-def display_footer():
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown("""
         <div style='text-align: center; color: #666; padding: 2rem; border-top: 2px solid #e0e7ff; background: linear-gradient(135deg, #f8f9ff 0%, #fff5f8 100%); border-radius: 12px; margin-top: 2rem;'>
@@ -36,6 +34,7 @@ def display_footer():
         </div>
 
     """, unsafe_allow_html=True)
+
 
 
 

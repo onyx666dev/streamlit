@@ -16,7 +16,7 @@ def display_footer():
             background: linear-gradient(135deg, #f8f9ff 0%, #fff5f8 100%);
             border-radius: 12px;
             margin-top: 2rem;
-            font-size: 0.85rem;
+            font-size: 0.95rem;
             font-weight: 400;
             font-family: Arial, sans-serif;
         '>
@@ -34,6 +34,7 @@ def display_footer():
         </div>
 
     """, unsafe_allow_html=True)
+
 
 
 

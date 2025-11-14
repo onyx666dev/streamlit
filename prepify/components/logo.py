@@ -10,7 +10,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 def display_logo():
-    logo_path = os.path.join(os.path.dirname(__file__), "assets", "onyxcode_black.png")
+    logo_path = os.path.join("assets", "onyxcode_black.png")
     
     if os.path.exists(logo_path):
         st.markdown(f"""
@@ -20,6 +20,7 @@ def display_logo():
         """, unsafe_allow_html=True)
     else:
         st.warning("⚠️ Logo not found — make sure 'assets/onyxcode_black.png' exists.")
+
 
 
 

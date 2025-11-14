@@ -19,5 +19,6 @@ def display_logo():
             </div>
         """, unsafe_allow_html=True)
     else:
-        st.warning("⚠️ Logo not found — make sure 'assets/onyxcode_black.png' exists.")
+        st.warning("⚠️ Logo not found — make sure '/assets/onyxcode_black.png' exists.")
+
 

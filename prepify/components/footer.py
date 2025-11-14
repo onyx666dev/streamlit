@@ -16,11 +16,12 @@ def display_footer():
             background: linear-gradient(135deg, #f8f9ff 0%, #fff5f8 100%);
             border-radius: 12px;
             margin-top: 2rem;
-            font-size: 0.95rem;
-            font-weight: 600;
+            font-size: 0.65rem;
+            font-weight: 400;
             font-family: Arial, sans-serif;
         '>
             <i>Made with ❤️ by <b style='color: #667eea;'>ONYXCODE</b> using Streamlit | © 2025 PrePify Pro Dashboard</i>
         </div>
     """, unsafe_allow_html=True)
+
 

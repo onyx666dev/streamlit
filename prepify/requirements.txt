@@ -7,4 +7,5 @@ plotly
 numpy
 scikit-learn
 scipy
+matplotlib
 openpyxl

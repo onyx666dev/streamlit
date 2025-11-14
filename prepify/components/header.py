@@ -2,12 +2,32 @@
 # FILE: components/header.py (With Version Badge)
 # ============================================
 import streamlit as st
+import os
+import base64
+
+def get_base64_of_svg(svg_path):
+    with open(svg_path, "r") as svg_file:
+        svg_content = svg_file.read()
+    return base64.b64encode(svg_content.encode('utf-8')).decode()
 
 def display_header():
-    st.markdown("""
+    # Adjust the path to your SVG icon file
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    svg_path = os.path.join(base_dir, "assets", "prepify_icon.svg")
+    
+    if os.path.exists(svg_path):
+        svg_base64 = get_base64_of_svg(svg_path)
+        svg_img_html = f'<img src="data:image/svg+xml;base64,{svg_base64}" style="height:1.5em; vertical-align:middle; margin-right:0.5em;" alt="Icon">'
+    else:
+        svg_img_html = "📊"  # fallback emoji if SVG not found
+
+    st.markdown(f"""
         <div class="hero-section">
             <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap;">
-                <h1 class="hero-title">📊 PrePify Pro Dashboard</h1>
+                <h1 class="hero-title" style="display: flex; align-items: center; gap: 0.5rem;">
+                    {svg_img_html}
+                    PrePify Pro Dashboard
+                </h1>
                 <span style="background: rgba(255,255,255,0.25); 
                              padding: 0.4rem 1rem; 
                              border-radius: 25px; 
